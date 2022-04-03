@@ -3,12 +3,12 @@ kind: ReplicaSet
 metadata:
   name: hello1
   labels:
-    app.kubernetes.io/name: hello
+    app.kubernetes.io/name: hello1
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app.kubernetes.io/name: hello
+      app.kubernetes.io/name: hello1
   template:
     metadata:
       labels:
